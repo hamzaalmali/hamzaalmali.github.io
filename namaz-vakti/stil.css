@@ -1,0 +1,30 @@
+:root {
+  --orman: #0f5c4c;
+  --krem: #f3f0e4;
+  --metin: #0c1f1a;
+  --soluk: #4a5c56;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--krem);
+  color: var(--metin);
+  font: 18px/1.55 system-ui, sans-serif;
+}
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+.marka {
+  color: var(--orman);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+h1 { font-size: 1.7rem; line-height: 1.25; }
+h2 { font-size: 1.15rem; margin-top: 1.8rem; }
+a { color: var(--orman); }
+.soluk, .guncelle { color: var(--soluk); font-size: 0.9rem; }
+ul { padding-left: 1.2rem; }
