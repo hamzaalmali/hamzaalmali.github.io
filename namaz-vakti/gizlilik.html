@@ -19,8 +19,8 @@
     <h2>Ne tutulur</h2>
     <ul>
       <li><strong>Konum (isteğe bağlı).</strong> Namaz vakti ve kıble için.
-        Vermezseniz şehir listesinden seçersiniz. Konum bir sunucumuza
-        gönderilmez; cihaz ve işletim sisteminin coğrafi kodlaması kullanılır.</li>
+        Vermezseniz şehir listesinden seçersiniz. Bir sunucumuza yazılmaz.
+        Ağ varken namaz vakti için koordinat Aladhan’a gider (aşağıda).</li>
       <li><strong>Yerel ayarlar.</strong> Tema, ezan, kaza sayacı, yer imi,
         zikir — telefonunuzdaki uygulama deposunda.</li>
       <li><strong>Bildirimler.</strong> Ezan ve hatırlatma cihazda planlanır.</li>
@@ -28,12 +28,20 @@
 
     <h2>İnternet ne zaman kullanılır</h2>
     <ul>
+      <li><strong>Namaz vakitleri.</strong> Ağ varken koordinat
+        <a href="https://aladhan.com/prayer-times-api">api.aladhan.com</a>
+        adresine gider; vakit orada hesaplanır. Bu resmî Diyanet çizelgesi
+        değildir. Ağ yoksa vakit cihazda hesaplanır. Konum bir sunucumuza
+        yazılmaz.</li>
+      <li><strong>Günün hadisi.</strong> Sahih kayıt
+        <a href="https://hadeethenc.com">hadeethenc.com</a> üzerinden okunur;
+        bir kopyası telefonda o gün için tutulur.</li>
       <li>Kıraat dinlerseniz ses <a href="https://everyayah.com">everyayah.com</a>
         üzerinden akar; kayıt uygulamaya gömülmez.</li>
+      <li>Kur’an Arapça metni ve meal cihaza gömülüdür (Tanzil + QuranEnc
+        heyeti); vakit veya meal için bu siteye bağlanılmaz.</li>
       <li>Bu sitedeki sürüm duyurusu (<code>veri/surum.json</code>) ileride
-        okunabilir. Namaz vakitleri bu adrese bağlı değildir.</li>
-      <li>Gönüllü destek açılırsa ödeme Apple veya Google üzerinden geçer;
-        kart bilgisi bize gelmez.</li>
+        okunabilir.</li>
     </ul>
 
     <h2>Ne yoktur</h2>
