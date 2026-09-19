@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "foxplayer",
+    "name": "Fox Player",
+    "description": "Apple, Android, Smart TV ve masaüstü için kişisel medya oynatıcısı.",
+    "icon": "icon.png",
+    "platforms": "Apple · Android · Smart TV · Desktop"
+  },
+  {
+    "slug": "netim",
+    "name": "Netim",
+    "description": "YKS, KPSS ve LGS için çalışma takibi, pomodoro ve net analizi.",
+    "icon": "icon.png",
+    "platforms": "Mobil"
+  },
+  {
+    "slug": "namaz-vakti",
+    "name": "Namaz Vakti",
+    "description": "Namaz vakti, kıble, zikir ve Kur’an.",
+    "icon": "icon.png",
+    "platforms": "Mobil"
+  },
+  {
+    "slug": "yedekleme-pro",
+    "name": "Yedekleme Pro",
+    "description": "Windows için planlı veritabanı ve klasör yedekleme.",
+    "platforms": "Windows"
+  }
+]
