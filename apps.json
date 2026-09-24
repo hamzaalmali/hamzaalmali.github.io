@@ -25,5 +25,12 @@
     "name": "Yedekleme Pro",
     "description": "Windows için planlı veritabanı ve klasör yedekleme.",
     "platforms": "Windows"
+  },
+  {
+    "slug": "yuzme",
+    "name": "Van Gençler Birliği Yüzme",
+    "description": "Yüzme kursu için sporcu kaydı, yoklama ve ödeme takibi.",
+    "icon": "icon.png",
+    "platforms": "iOS · Android"
   }
 ]
