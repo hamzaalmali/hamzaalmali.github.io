@@ -1,5 +1,12 @@
 [
   {
+    "slug": "mixi-online",
+    "name": "Mixi Online",
+    "description": "MMO esintili aksiyon RPG: avla, ganimet topla, +10 bas, 1v1 düello.",
+    "icon": "icon.png",
+    "platforms": "iOS · Android"
+  },
+  {
     "slug": "foxplayer",
     "name": "Fox Player",
     "description": "Apple, Android, Smart TV ve masaüstü için kişisel medya oynatıcısı.",
