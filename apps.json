@@ -1,5 +1,12 @@
 [
   {
+    "slug": "neonbound",
+    "name": "Neonbound",
+    "description": "Neon top sektirme roguelite: nişan al, sektir, kutuları kır, haftalık tabloda yarış.",
+    "icon": "icon.png",
+    "platforms": "iOS · Android"
+  },
+  {
     "slug": "mixi-online",
     "name": "Mixi Online",
     "description": "MMO esintili aksiyon RPG: avla, ganimet topla, +10 bas, 1v1 düello.",
