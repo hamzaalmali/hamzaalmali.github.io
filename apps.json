@@ -1,5 +1,12 @@
 [
   {
+    "slug": "sut-ve-gol",
+    "name": "Şut ve Gol",
+    "description": "Lastikle fırlat, boşluktan geçir: hızlı 1v1 futbol düellosu, online maç ve akşam ligi.",
+    "icon": "icon.png",
+    "platforms": "iOS · Android"
+  },
+  {
     "slug": "neonbound",
     "name": "Neonbound",
     "description": "Neon top sektirme roguelite: nişan al, sektir, kutuları kır, haftalık tabloda yarış.",
