@@ -7,6 +7,13 @@
     "platforms": "iOS · Android"
   },
   {
+    "slug": "sebeke-ustasi",
+    "name": "Şebeke Ustası",
+    "description": "Elektrik dağıtımını oynayarak öğren: hat çek, trafo kur, arıza gider; çizimli saha kılavuzu ve sınavlar.",
+    "icon": "icon.png",
+    "platforms": "iOS · Android"
+  },
+  {
     "slug": "neonbound",
     "name": "Neonbound",
     "description": "Neon top sektirme roguelite: nişan al, sektir, kutuları kır, haftalık tabloda yarış.",
