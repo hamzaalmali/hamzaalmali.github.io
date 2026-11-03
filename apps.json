@@ -35,6 +35,13 @@
     "platforms": "Apple · Android · Smart TV · Desktop"
   },
   {
+    "slug": "foxmediaplayer",
+    "name": "Fox Media Player",
+    "description": "Huawei telefon ve tabletler için kişisel medya oynatıcısı (HUAWEI AppGallery).",
+    "icon": "icon.png",
+    "platforms": "Huawei AppGallery"
+  },
+  {
     "slug": "netim",
     "name": "Netim",
     "description": "YKS, KPSS ve LGS için çalışma takibi, pomodoro ve net analizi.",
