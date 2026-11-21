@@ -1,3 +1,10 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Sistem, editör ve derleme kalıntıları
+Thumbs.db
+*.swp
+.idea/
+*.log
+node_modules/
