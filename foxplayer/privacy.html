@@ -11,10 +11,10 @@
 <header><a href="./">Fox Player</a><nav><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="../">All apps</a></nav></header>
 <main class="legal">
 <h1>Privacy Policy</h1>
-<p class="date">Fox IPTV Player · Last updated: September 30, 2026</p>
+<p class="date">Fox IPTV Player · Last updated: November 25, 2026</p>
 
 <div class="summary">
-<p><strong>In short:</strong> Fox Player keeps your data on your own device. We do not run servers that receive your information, we do not use analytics, advertising or tracking, and we never sell or share your data. The app connects only to the TV service you sign in to and to the few services listed below.</p>
+<p><strong>In short:</strong> Fox Player keeps your data on your own device. The only information our own service receives is what is needed to link an LG or Samsung TV to your subscription, if you choose to use that feature (section 4). We do not use analytics, advertising or tracking, and we never sell or share your data. The app connects only to the TV service you sign in to and to the few services listed below.</p>
 </div>
 
 <h2>1. Scope</h2>
@@ -28,7 +28,7 @@
 <li><strong>Cached catalog and programme guide (EPG)</strong> data downloaded from your service, kept to make the app faster.</li>
 <li><strong>Free trial start date and subscription status</strong>, so the app knows whether Premium is active. On Apple devices the trial start date is also saved in your Keychain and your iCloud Key-Value Storage so that reinstalling the app does not restart the trial.</li>
 </ul>
-<p>We have no copy of any of this information.</p>
+<p>Unless you link a Smart TV (section 4), we have no copy of any of this information.</p>
 
 <h2>3. Network connections the app makes</h2>
 <div class="table">
@@ -37,6 +37,7 @@
 <tr><td>The TV service you enter</td><td>Sign in, load channels, guide, movies and series, play streams</td><td>Your server address, username and password, and normal requests for content — directly to that service, never to us</td></tr>
 <tr><td>The Movie Database (TMDB)</td><td>Posters, descriptions and cast for titles in your catalog</td><td>Title names or search terms and your IP address, as with any web request. Not used in demo mode</td></tr>
 <tr><td>Your app store's billing service</td><td>Subscriptions, free trial eligibility, restore purchases</td><td>Handled entirely by the store (see section 5)</td></tr>
+<tr><td>Smart TV link service (Supabase)</td><td>Link an LG or Samsung TV to your Premium subscription and check that it is still active</td><td>From the phone or tablet: the store's purchase record and the code shown on the TV. From the TV: its random identifier and model name (see section 4)</td></tr>
 <tr><td>Update and rating prompts</td><td>Tell you when a newer version is available; ask for a rating</td><td>On Apple devices the app's identifier is checked against the App Store; on Android Google Play's in-app update and review services are used</td></tr>
 </table>
 </div>
@@ -50,6 +51,9 @@
 <li><strong>Android:</strong> through your Google account, in the hidden app-data folder of your Google Drive (<code>drive.appdata</code> permission). The app cannot see your other Drive files, and nobody else — including us — can see this folder. Watch progress entries may include the stream address provided by your service, which for some services contains your username and password.</li>
 </ul>
 <p>You can turn sync off at any time, and remove the synced copy by signing out of sync or from your iCloud / Google account settings.</p>
+<h3>Connect Smart TV</h3>
+<p>If you link an LG or Samsung TV to your Premium subscription, the app sends the purchase record from the App Store or Google Play to our link service so that it can be checked. The link service (hosted by Supabase) keeps only the subscription identifier, product, status and expiry date, together with a random identifier, a short device code and the model name of the linked TV. It does not receive your name, e-mail address, payment details, service sign-in details or viewing history, and the record is not used for anything other than keeping the TV active. To prevent abuse, an irreversible hash of the IP address is kept for a short time (about two days).</p>
+<p>The camera is used only while you scan the QR code shown on the TV. The image is processed on your phone or tablet and is never stored or sent; you can type the short code instead. Unlink the TV at any time in Profile › Connect Smart TV. To have the remaining record deleted, send us the device code shown on the TV.</p>
 <h3>Chromecast</h3>
 <p>On iPhone, iPad and Android phones, the Google Cast SDK looks for Cast devices on your local network when you use the Cast button, and sends the stream you choose to that device.</p>
 <h3>Notifications and home screen</h3>
@@ -60,16 +64,15 @@
 <ul>
 <li><strong>Apple App Store</strong> on iPhone, iPad, Apple TV and the Mac App Store version;</li>
 <li><strong>Google Play Billing</strong> on Android and Android TV;</li>
-<li><strong>Amazon Appstore In-App Purchasing</strong> on Fire TV;</li>
-<li><strong>Samsung Checkout</strong> on Samsung TVs;</li>
-<li><strong>A third-party payment processor</strong> on LG TVs, where in-app purchases are offered. The app shares only an identifier of your TV with the processor so your purchase can be recognised; the payment details you enter go directly to the processor, whose name is shown at checkout, under its own privacy policy.</li>
+<li><strong>Amazon Appstore In-App Purchasing</strong> on Fire TV.</li>
 </ul>
+<p>Nothing is sold in the LG and Samsung TV apps; they use the Premium subscription of a linked phone or tablet.</p>
 <p>Where in-app purchase is not available (for example desktop versions distributed outside the Mac App Store), no payment information is processed by the app.</p>
 
 <h2>6. What we do not do</h2>
 <ul>
 <li>No analytics, advertising, attribution or tracking SDKs.</li>
-<li>No accounts on our side and no servers that receive your credentials, viewing history or device information.</li>
+<li>No accounts on our side and no servers that receive your credentials or viewing history.</li>
 <li>No selling, renting or sharing of personal information.</li>
 </ul>
 <p>If you have allowed it in your device settings, Apple or Google may share anonymous crash and performance reports with us through their developer tools. These do not identify you.</p>
@@ -78,7 +81,7 @@
 <p>Fox Player is not directed at children and does not knowingly collect information from them. Because content comes from the service you connect, parental discretion is advised; the app offers a PIN lock and adult-category filtering.</p>
 
 <h2>8. Keeping and deleting your data</h2>
-<p>Your data stays on your device until you remove it. Signing out of an account or deleting a saved account clears its cached content; deleting the app removes everything it stored. Synced copies are removed as described in section 4. Because we do not hold your data, requests to access or erase it under laws such as the GDPR or KVKK are fulfilled by these steps; we are happy to help by email.</p>
+<p>Your data stays on your device until you remove it. Signing out of an account or deleting a saved account clears its cached content; deleting the app removes everything it stored. Synced copies are removed as described in section 4. You can unlink a Smart TV at any time, which ends the link immediately, and ask us to delete its record; TVs that were never linked are deleted after about 60 days without use. Because we hold no other data, requests to access or erase it under laws such as the GDPR or KVKK are fulfilled by these steps; we are happy to help by email.</p>
 
 <h2>9. Changes</h2>
 <p>We may update this policy. The "Last updated" date will change when we do, and important changes will be reflected here before they take effect in the app.</p>

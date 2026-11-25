@@ -11,10 +11,10 @@
 <header><a href="./">Fox Media Player</a><nav><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="../">All apps</a></nav></header>
 <main class="legal">
 <h1>Privacy Policy</h1>
-<p class="date">Fox Media Player · Last updated: November 3, 2026</p>
+<p class="date">Fox Media Player · Last updated: November 25, 2026</p>
 
 <div class="summary">
-<p><strong>In short:</strong> Fox Media Player keeps your data on your own device. We do not run servers that receive your information, we do not use analytics, advertising or tracking, and we never sell or share your data. The app connects only to the service you sign in to and to the few services listed below.</p>
+<p><strong>In short:</strong> Fox Media Player keeps your data on your own device. The only information our own service receives is what is needed to link an LG or Samsung TV to your subscription, if you choose to use that feature (section 4). We do not use analytics, advertising or tracking, and we never sell or share your data. The app connects only to the service you sign in to and to the few services listed below.</p>
 </div>
 
 <h2>1. Scope</h2>
@@ -28,7 +28,7 @@
 <li><strong>Cached catalog and programme guide (EPG)</strong> data downloaded from your service, kept to make the app faster.</li>
 <li><strong>Free trial start date and subscription status</strong>, so the app knows whether Premium is active.</li>
 </ul>
-<p>We have no copy of any of this information.</p>
+<p>Unless you link a Smart TV (section 4), we have no copy of any of this information.</p>
 
 <h2>3. Network connections the app makes</h2>
 <div class="table">
@@ -37,6 +37,7 @@
 <tr><td>The service you enter</td><td>Sign in, load channels, guide, movies and series, play streams</td><td>Your server address, username and password, and normal requests for content — directly to that service, never to us</td></tr>
 <tr><td>The Movie Database (TMDB)</td><td>Posters, descriptions and cast for titles in your catalog</td><td>Title names or search terms and your IP address, as with any web request. Not used in demo mode</td></tr>
 <tr><td>Huawei In-App Purchases (HMS Core)</td><td>Show the subscription price, buy, and restore Premium</td><td>Handled by Huawei with your HUAWEI ID (see section 5)</td></tr>
+<tr><td>Smart TV link service (Supabase)</td><td>Link an LG or Samsung TV to your Premium subscription and check that it is still active</td><td>The Huawei purchase record and the code shown on the TV (see section 4)</td></tr>
 </table>
 </div>
 <p>The demo account (server code <em>6565</em>) works entirely offline with sample content built into the app.</p>
@@ -44,6 +45,9 @@
 <h2>4. Optional features</h2>
 <h3>Cross-device sync</h3>
 <p>If you choose to turn sync on, your favorites, watch progress, hidden items and some settings are copied to the hidden app-data folder of your own Google Drive (<code>drive.appdata</code> permission) after you sign in to Google in your browser. The app cannot see your other Drive files, and nobody else — including us — can see this folder. Watch progress entries may include the stream address provided by your service, which for some services contains your username and password. You can turn sync off at any time and remove the synced copy from your Google account settings.</p>
+<h3>Connect Smart TV</h3>
+<p>If you link an LG or Samsung TV to your Premium subscription, the app sends the purchase record from Huawei In-App Purchases to our link service so that it can be checked. The link service (hosted by Supabase) keeps only the subscription identifier, product, status and expiry date, together with a random identifier, a short device code and the model name of the linked TV. It does not receive your name, e-mail address, payment details, service sign-in details or viewing history, and the record is not used for anything other than keeping the TV active. To prevent abuse, an irreversible hash of the IP address is kept for a short time (about two days).</p>
+<p>The camera is used only while you scan the QR code shown on the TV. The image is processed on your phone or tablet and is never stored or sent; you can type the short code instead. Unlink the TV at any time in Profile › Connect Smart TV. To have the remaining record deleted, send us the device code shown on the TV.</p>
 <h3>Notifications</h3>
 <p>Programme reminders you set are scheduled as local notifications on your device and never leave it.</p>
 
@@ -53,16 +57,16 @@
 <h2>6. What we do not do</h2>
 <ul>
 <li>No analytics, advertising, attribution or tracking SDKs.</li>
-<li>No accounts on our side and no servers that receive your credentials, viewing history or device information.</li>
+<li>No accounts on our side and no servers that receive your credentials or viewing history.</li>
 <li>No selling, renting or sharing of personal information.</li>
-<li>No access to your location, contacts, camera or microphone.</li>
+<li>No access to your location, contacts or microphone. The camera is used only to scan the QR code of a Smart TV, after you allow it.</li>
 </ul>
 
 <h2>7. Children</h2>
 <p>Fox Media Player is not directed at children and does not knowingly collect information from them. Because content comes from the service you connect, parental discretion is advised; the app offers a PIN lock and adult-category filtering.</p>
 
 <h2>8. Keeping and deleting your data</h2>
-<p>Your data stays on your device until you remove it. Signing out of an account or deleting a saved account clears its cached content; deleting the app removes everything it stored. Synced copies are removed as described in section 4. Because we do not hold your data, requests to access or erase it under laws such as the GDPR or KVKK are fulfilled by these steps; we are happy to help by email.</p>
+<p>Your data stays on your device until you remove it. Signing out of an account or deleting a saved account clears its cached content; deleting the app removes everything it stored. Synced copies are removed as described in section 4. You can unlink a Smart TV at any time, which ends the link immediately, and ask us to delete its record; TVs that were never linked are deleted after about 60 days without use. Because we hold no other data, requests to access or erase it under laws such as the GDPR or KVKK are fulfilled by these steps; we are happy to help by email.</p>
 
 <h2>9. Changes</h2>
 <p>We may update this policy. The "Last updated" date will change when we do, and important changes will be reflected here before they take effect in the app.</p>
